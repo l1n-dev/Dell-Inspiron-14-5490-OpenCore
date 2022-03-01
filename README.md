@@ -5,7 +5,7 @@
 
 My OpenCore EFI folder for Hackintosh-ing.
 
-NOTE:Go visit the [Wiki](https://github.com/TheNewEraBrad/Dell-Inspiron-14-5490-OpenCore/wiki) before doing anything in this repo.
+NOTE: Go visit the [Wiki](https://github.com/TheNewEraBrad/Dell-Inspiron-14-5490-OpenCore/wiki) before doing anything in this repo.
 
 My specs:  
 Intel Core i5-10210U @ 1.60 GHz  
