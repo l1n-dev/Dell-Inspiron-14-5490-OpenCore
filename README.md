@@ -24,6 +24,8 @@ Camera
 
 Built-in Speakers
 
+Battery Percentage Monitor
+
 HDMI & HDMI audio
 
 Trackpad gestures
