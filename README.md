@@ -1,4 +1,8 @@
 # Dell-Inspiron-14-5490-OpenCore
+
+![image](https://user-images.githubusercontent.com/79068208/156099352-be17a6a1-64d3-428c-a4fd-ca65de19719e.png)
+
+
 My OpenCore EFI folder for Hackintosh-ing.
 
 My specs:
