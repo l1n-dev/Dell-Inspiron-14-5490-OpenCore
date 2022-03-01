@@ -18,6 +18,7 @@ Realtek USB Camera
 Shenzhen Goodix Fingerprint  
 
 What works:  
+Power Management  
 Camera  
 Built-in Speakers  
 Battery Percentage Monitor  
