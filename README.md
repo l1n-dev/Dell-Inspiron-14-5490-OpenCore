@@ -31,6 +31,7 @@ WiFi, Airdrop, Airplay and Bluetooth
 Untested:  
 Displayport via USB-C (disabled in config.plist)  
 Security lock  
+
 Partially working:  
 Sidecar (Connects 50% of the time, is an issue with macOS Monterey)  
 
