@@ -40,17 +40,7 @@ Microphone (Intel SST)
 Headphone Jack (Also Intel SST)  
 Disable NVIDIA GPU with SSDT (Freezes 10 seconds after login)  
 Trackpad with SSDT-GPI0 (Trackpad OS Checking) SSDT-XOSI works fine though  
-Fingerprint (Appears after USB Map but doesn't work)  
-
-Known issues:  
-Problem: Sometimes when booting, trackpad doesn't work.  
-Solution: Reboot with Tab keys and Space bar.  
-
-Problem: HDMI takes a while to initialize.  
-Solution: There isn't really a solution, Comet Lake UHD 620 is not natively supported.  
-
-Problem: Camera doesn't appear in System Info.  
-Solution: Use SSDT-RHUB when installing (SSDT-USB-Reset is the same thing).  
+Fingerprint (Appears after USB Map but doesn't work, can be passed through to Windows VM)  
 
 Note: The serial number in `Platforminfo > Generic` is blanked out. You can generate a serial with [GenSMBIOS.](https://github.com/corpnewt/GenSMBIOS).  
 Other note: USB Map Kext is removed because some variants of this laptop have different USB configurations.  
