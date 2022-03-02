@@ -46,4 +46,4 @@ Windows Dual-boot (SSDT-XOSI conflict)
 Note: The serial number in `Platforminfo > Generic` is blanked out. You can generate a serial with [GenSMBIOS.](https://github.com/corpnewt/GenSMBIOS)  
 Other note: USB Map Kext is removed because some variants of this laptop have different USB configurations.  
 Other other note: My BIOS revision is 1.16.1, so please update to the latest Dell BIOS before proceeding.  
-Last note I swear: My CFG Lock is disabled using [Dortania's method](https://dortania.github.io/OpenCore-Post-Install/misc/msr-lock.html) so if your CFG Lock is still enabled, enable `AppleXCPMCfgLock` in `Kernel > Quirks`. (ControlMSR32 reports CFG lock enabled, idk why).  
+Last note I swear: My CFG Lock is disabled using [Dortania's method](https://dortania.github.io/OpenCore-Post-Install/misc/msr-lock.html) so if your CFG Lock is still enabled, enable `AppleXcpmCfgLock` in `Kernel > Quirks`. (ControlMSR32 reports CFG lock enabled, idk why).  
