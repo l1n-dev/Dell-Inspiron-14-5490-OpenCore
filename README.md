@@ -28,7 +28,7 @@ Backlight keys
 All USB Ports  
 WiFi, Airdrop, Airplay and Bluetooth  
 
-Fixed:
+Fixed:  
 Sidecar (USB Map Issue)  
 
 Untested:  
