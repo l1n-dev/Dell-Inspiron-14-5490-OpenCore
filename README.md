@@ -28,12 +28,16 @@ Backlight keys
 All USB Ports  
 WiFi, Airdrop, Airplay and Bluetooth  
 
+Fixed:
+Sidecar (USB Map Issue)  
+
 Untested:  
 Displayport via USB-C (disabled in config.plist)  
 Security lock  
 
 Partially working:  
-Sidecar (Connects 50% of the time, is an issue with macOS Monterey)  
+~Sidecar (Connects 50% of the time, is an issue with macOS Monterey)~  
+See Fixed section.  
 
 Not working:  
 Microphone (Intel SST)  
