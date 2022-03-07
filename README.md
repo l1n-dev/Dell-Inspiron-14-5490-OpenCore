@@ -18,6 +18,7 @@ Realtek USB Camera
 Shenzhen Goodix Fingerprint  
 
 What works:  
+Audio Out  
 Power Management  
 Camera  
 Built-in Speakers  
@@ -30,6 +31,7 @@ WiFi, Airdrop, Airplay and Bluetooth
 
 Fixed:  
 Sidecar (USB Map Issue)  
+Headphone jack audio (Set `alcid=16` or `10000000` in `DeviceProperties`)
 
 Untested:  
 Displayport via USB-C (disabled in config.plist)  
@@ -41,7 +43,7 @@ See Fixed section.
 
 Not working:  
 Microphone (Intel SST)  
-Headphone Jack (Also Intel SST)  
+Headphone jack input (Also Intel SST)  
 Disable NVIDIA GPU with SSDT (Freezes 10 seconds after login)  
 Trackpad with SSDT-GPI0 (Trackpad OS Checking) SSDT-XOSI works fine though  
 Fingerprint (Appears after USB Map but doesn't work, can be passed through to VMware Windows VM)  
