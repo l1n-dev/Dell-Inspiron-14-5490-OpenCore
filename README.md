@@ -7,15 +7,19 @@ My OpenCore EFI folder for Hackintosh-ing.
 
 NOTE: Go visit the [Wiki](https://github.com/TheNewEraBrad/Dell-Inspiron-14-5490-OpenCore/wiki) before doing anything in this repo.
 
+Update: Nowadays, I have quit the hackintosh scene and installed [Gentoo GNU/Linux](https://gentoo.org) with a new 20GB RAM upgrade. I probably won't be updating this anymore.
+
 My specs:  
-Intel Core i5-10210U @ 1.60 GHz  
-8GB DDR4-2667 SODIMM RAM (4GB soldered, 4GB additional)  
-IM2P33F3 NVMe ADATA 256GB SSD  
-Intel UHD Graphics 620 (0x9b41) (spoofed to 0x3e9b)  
-NVIDIA GeForce MX 230 (Disabled via `-wegnoegpu`)  
-Fenvi BCM94360NG Wireless card (802.11ac)  
-Realtek USB Camera  
-Shenzhen Goodix Fingerprint  
+Intel Core i5-10210U @ 1.60 GHz.  
+~8GB DDR4-2667 SODIMM RAM (4GB soldered, 4GB additional)~  
+20GB DDR4-2667 SODIMM RAM (4GB soldered, 16GB additional).  
+~IM2P33F3 NVMe ADATA 256GB SSD~  
+Patriot P300 NVMe (512GB) (Doesn't seem to boot with macOS).  
+Intel UHD Graphics 620 (0x9b41) (spoofed to 0x3e9b).  
+NVIDIA GeForce MX 230 (Disabled via `-wegnoegpu`).  
+Fenvi BCM94360NG Wireless card (802.11ac).  
+Realtek USB Camera.  
+Shenzhen Goodix Fingerprint.  
 
 What works:  
 Audio Out  
@@ -43,7 +47,7 @@ See Fixed section.
 
 Not working:  
 Microphone (Intel SST)  
-Headphone jack input (Also Intel SST)  
+Headphone jack input (Realtek issue)  
 Disable NVIDIA GPU with SSDT (Freezes 10 seconds after login)  
 Trackpad with SSDT-GPI0 (Trackpad OS Checking) SSDT-XOSI works fine though  
 Fingerprint (Appears after USB Map but doesn't work, can be passed through to VMware Windows VM)  
