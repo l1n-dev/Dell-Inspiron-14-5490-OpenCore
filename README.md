@@ -36,8 +36,8 @@ WiFi, Airdrop, Airplay and Bluetooth
 Fixed:  
 Sidecar (USB Map Issue)  
 Headphone jack audio (Set `alcid=16` or `10000000` in `DeviceProperties`)
-> NOTE: This causes instability with main speakers.  
 Patriot SSD (Remove `NVMeFix.kext`)  
+> NOTE: Changing the `alcid` causes instability with main speakers.  
 
 Untested:  
 Displayport via USB-C (disabled in config.plist)  
