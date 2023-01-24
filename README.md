@@ -35,7 +35,7 @@ WiFi, Airdrop, Airplay and Bluetooth
 
 Fixed:  
 Sidecar (USB Map Issue)  
-Headphone jack audio (Set `alcid=16` or `10000000` in `DeviceProperties`)
+Headphone jack audio (Set `alcid=16` or `10000000` in `DeviceProperties`)  
 Patriot SSD (Remove `NVMeFix.kext`)  
 > NOTE: Changing the `alcid` causes instability with main speakers.  
 
@@ -44,15 +44,15 @@ Displayport via USB-C (disabled in config.plist)
 Security lock  
 
 Partially working:  
-~Sidecar (Connects 50% of the time)~  
-See Fixed section.  
+~Sidecar (Connects 50% of the time)~
+ See Fixed section.  
 
 Not working:  
 Microphone (Intel SST)  
 Headphone jack input (Realtek issue)  
 Disable NVIDIA GPU with SSDT (Freezes 10 seconds after login)  
 Trackpad with SSDT-GPI0 (Trackpad OS Checking) SSDT-XOSI works fine though.  
-Fingerprint (Appears after USB Map but doesn't work, can be passed through to VMware Windows VM)  
+Fingerprint (Appears after USB Map but doesn't work in macOS, can be passed through to VMware Windows VM)  
 Windows Dual-boot (SSDT-XOSI conflict)
 
 Note: The serial number in `Platforminfo > Generic` is blanked out. You can generate a serial with [GenSMBIOS.](https://github.com/corpnewt/GenSMBIOS)  
