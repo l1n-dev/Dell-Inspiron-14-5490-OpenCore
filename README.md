@@ -42,7 +42,7 @@ Security lock
 Partially working:  
 ~Sidecar (Connects 50% of the time)~
  See Fixed section.  
-Headphone jack input (Realtek issue)  
+Headphone jack input (see fixed section)  
 
 Not working:  
 Microphone (Intel SST)  
