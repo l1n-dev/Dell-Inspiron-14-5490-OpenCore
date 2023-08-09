@@ -42,10 +42,11 @@ Security lock
 Partially working:  
 ~Sidecar (Connects 50% of the time)~
  See Fixed section.  
-Headphone jack input (see fixed section)  
+Headphone jack audio (see fixed section)  
 
 Not working:  
 Microphone (Intel SST)  
+Headphone jack microphone input (Realtek issue)  
 Disable NVIDIA GPU with SSDT (Freezes 10 seconds after login)  
 Trackpad with SSDT-GPI0 (Trackpad OS Checking) SSDT-XOSI works fine though.  
 Fingerprint (Appears after USB Map but doesn't work in macOS, can be passed through to VMware Windows VM)  
